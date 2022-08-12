@@ -1,0 +1,30 @@
+#container{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	background-color: #404040;
+	height: 100vh;	
+	font: 400 20px sans-serif;
+}
+
+#editor{
+	border: solid 2px black;
+	padding: 30px;
+	resize: none;
+	height: 80vh;
+	width: 30vw;
+}
+
+#preview{
+	border: solid 2px black;
+	height: 80vh;
+	width: 30vw;	
+	padding: 30px;
+	background-color: white;
+}
+
+h3{
+	color:white;
+	font-size: 30px;
+}
